@@ -1,7 +1,7 @@
 from scrapli.channel import Channel as Channel
+from scrapli.exceptions import ConnectionNotOpened as ConnectionNotOpened
 from scrapli.transport import Transport as Transport
 from typing import Any, Callable
 
-LOG: Any
-
 def operation_timeout(attribute: str, message: str=...) -> Callable[..., Any]: ...
+def requires_open_session() -> Callable[..., Any]: ...
