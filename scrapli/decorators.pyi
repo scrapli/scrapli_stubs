@@ -1,5 +1,5 @@
 from scrapli.channel import Channel as Channel
-from scrapli.exceptions import ConnectionNotOpened as ConnectionNotOpened
+from scrapli.exceptions import ConnectionNotOpened as ConnectionNotOpened, ScrapliTimeout as ScrapliTimeout
 from scrapli.transport import Transport as Transport
 from typing import Any, Callable
 
