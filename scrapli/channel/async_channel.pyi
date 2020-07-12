@@ -1,5 +1,5 @@
 from scrapli.channel.base_channel import ChannelBase as ChannelBase
-from scrapli.decorators import operation_timeout as operation_timeout
+from scrapli.decorators import async_operation_timeout as async_operation_timeout
 from scrapli.helper import get_prompt_pattern as get_prompt_pattern, strip_ansi as strip_ansi
 from scrapli.transport.async_transport import AsyncTransport as AsyncTransport
 from typing import Any, List, Optional, Tuple
