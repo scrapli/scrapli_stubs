@@ -1,4 +1,4 @@
-from scrapli.decorators import operation_timeout as operation_timeout, requires_open_session as requires_open_session
+from scrapli.decorators import OperationTimeout as OperationTimeout, requires_open_session as requires_open_session
 from scrapli.exceptions import ScrapliAuthenticationFailed as ScrapliAuthenticationFailed
 from scrapli.helper import get_prompt_pattern as get_prompt_pattern, strip_ansi as strip_ansi
 from scrapli.ssh_config import SSHConfig as SSHConfig

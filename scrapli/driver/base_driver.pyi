@@ -7,6 +7,7 @@ from typing import Any, Callable, Dict, Optional, Tuple, Union
 TRANSPORT_CLASS: Dict[str, Callable[..., Transport]]
 TRANSPORT_ARGS: Dict[str, Tuple[str, ...]]
 TRANSPORT_BASE_ARGS: Any
+ASYNCIO_TRANSPORTS: Any
 
 class ScrapeBase:
     _initialization_args: Any = ...

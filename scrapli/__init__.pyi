@@ -1,5 +1,6 @@
 import logging
 from scrapli.driver import AsyncScrape as AsyncScrape, Scrape as Scrape
+from scrapli.factory import AsyncScrapli as AsyncScrapli, Scrapli as Scrapli
 from typing import Any
 
 class DuplicateFilter(logging.Filter):

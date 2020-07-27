@@ -1,5 +1,6 @@
 from scrapli.channel import AsyncChannel as AsyncChannel
-from scrapli.driver.base_driver import ScrapeBase as ScrapeBase
+from scrapli.driver.base_driver import ASYNCIO_TRANSPORTS as ASYNCIO_TRANSPORTS, ScrapeBase as ScrapeBase
+from scrapli.exceptions import TransportPluginError as TransportPluginError
 from types import TracebackType
 from typing import Any, Optional, Type
 
