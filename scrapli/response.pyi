@@ -1,6 +1,7 @@
 from collections import UserList
+from io import TextIOWrapper
 from scrapli.exceptions import ScrapliCommandFailure as ScrapliCommandFailure
-from scrapli.helper import _textfsm_get_template as _textfsm_get_template, genie_parse as genie_parse, textfsm_parse as textfsm_parse
+from scrapli.helper import _textfsm_get_template as _textfsm_get_template, genie_parse as genie_parse, textfsm_parse as textfsm_parse, ttp_parse as ttp_parse
 from typing import Any, Dict, List, Optional, Union
 
 class Response:
@@ -22,6 +23,7 @@ class Response:
     def _record_response(self, result: bytes) -> None: ...
     def textfsm_parse_output(self, to_dict: bool=...) -> Union[Dict[str, Any], List[Any]]: ...
     def genie_parse_output(self) -> Union[Dict[str, Any], List[Any]]: ...
+    def ttp_parse_output(self, template: Union[str, TextIOWrapper]) -> Union[Dict[str, Any], List[Any]]: ...
     def raise_for_status(self) -> None: ...
 ScrapliMultiResponse = UserList[Response]
 
