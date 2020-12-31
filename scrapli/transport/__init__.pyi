@@ -1,4 +1,6 @@
 from scrapli.transport.async_transport import AsyncTransport as AsyncTransport
+from scrapli.transport.asynctelnet import ASYNC_TELNET_TRANSPORT_ARGS as ASYNC_TELNET_TRANSPORT_ARGS, AsyncTelnetTransport as AsyncTelnetTransport
+from scrapli.transport.base_transport import TransportBase as TransportBase
 from scrapli.transport.systemssh import SYSTEM_SSH_TRANSPORT_ARGS as SYSTEM_SSH_TRANSPORT_ARGS, SystemSSHTransport as SystemSSHTransport
 from scrapli.transport.telnet import TELNET_TRANSPORT_ARGS as TELNET_TRANSPORT_ARGS, TelnetTransport as TelnetTransport
 from scrapli.transport.transport import Transport as Transport

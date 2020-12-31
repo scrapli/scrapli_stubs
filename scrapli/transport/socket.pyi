@@ -1,4 +1,4 @@
-from scrapli.exceptions import ScrapliTimeout as ScrapliTimeout
+from scrapli.exceptions import ConnectionNotOpened as ConnectionNotOpened, ScrapliTimeout as ScrapliTimeout
 from typing import Any
 
 class Socket:
