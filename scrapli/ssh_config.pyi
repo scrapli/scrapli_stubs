@@ -1,3 +1,4 @@
+from scrapli.exceptions import ScrapliTypeError as ScrapliTypeError
 from typing import Any, Dict, Optional
 
 HOST_ATTRS: Any

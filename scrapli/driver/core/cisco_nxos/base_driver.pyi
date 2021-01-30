@@ -1,4 +1,5 @@
-from scrapli.driver.base_network_driver import PrivilegeLevel as PrivilegeLevel
+from scrapli.driver.network.base_driver import PrivilegeLevel as PrivilegeLevel
+from scrapli.exceptions import ScrapliValueError as ScrapliValueError
 from typing import Any, Dict
 
 PRIVS: Any
