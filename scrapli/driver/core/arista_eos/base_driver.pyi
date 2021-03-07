@@ -3,6 +3,7 @@ from scrapli.exceptions import ScrapliValueError as ScrapliValueError
 from typing import Any, Dict
 
 PRIVS: Any
+FAILED_WHEN_CONTAINS: Any
 
 class EOSDriverBase:
     privilege_levels: Dict[str, PrivilegeLevel]

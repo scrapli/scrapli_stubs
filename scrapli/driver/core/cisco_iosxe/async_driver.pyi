@@ -1,6 +1,6 @@
 from io import BytesIO
 from scrapli.driver import AsyncNetworkDriver as AsyncNetworkDriver
-from scrapli.driver.core.cisco_iosxe.base_driver import PRIVS as PRIVS
+from scrapli.driver.core.cisco_iosxe.base_driver import FAILED_WHEN_CONTAINS as FAILED_WHEN_CONTAINS, PRIVS as PRIVS
 from scrapli.driver.network.base_driver import PrivilegeLevel as PrivilegeLevel
 from typing import Any, Callable, Dict, List, Optional, Union
 

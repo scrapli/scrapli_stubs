@@ -1,6 +1,6 @@
 from io import BytesIO
 from scrapli.driver import NetworkDriver as NetworkDriver
-from scrapli.driver.core.cisco_nxos.base_driver import NXOSDriverBase as NXOSDriverBase, PRIVS as PRIVS
+from scrapli.driver.core.cisco_nxos.base_driver import FAILED_WHEN_CONTAINS as FAILED_WHEN_CONTAINS, NXOSDriverBase as NXOSDriverBase, PRIVS as PRIVS
 from scrapli.driver.network.base_driver import PrivilegeLevel as PrivilegeLevel
 from typing import Any, Callable, Dict, List, Optional, Union
 

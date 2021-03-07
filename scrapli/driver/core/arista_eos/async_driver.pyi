@@ -1,6 +1,6 @@
 from io import BytesIO
 from scrapli.driver import AsyncNetworkDriver as AsyncNetworkDriver
-from scrapli.driver.core.arista_eos.base_driver import EOSDriverBase as EOSDriverBase, PRIVS as PRIVS
+from scrapli.driver.core.arista_eos.base_driver import EOSDriverBase as EOSDriverBase, FAILED_WHEN_CONTAINS as FAILED_WHEN_CONTAINS, PRIVS as PRIVS
 from scrapli.driver.network.base_driver import PrivilegeLevel as PrivilegeLevel
 from typing import Any, Callable, Dict, List, Optional, Union
 
